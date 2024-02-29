@@ -6,8 +6,8 @@ CLIENT_SECRET = config('CLIENT_SECRET')
 
 playlist = Tracks(CLIENT_ID, CLIENT_SECRET)
 
-tracks_by_country = playlist.get_top_tracks_by_country('BR', 10)
-playlist.display_top_tracks(tracks_by_country)
+tracks_by_artist = playlist.get_songs_for_artist("Bon Jovi")
+playlist.display_top_tracks_for_artist(tracks_by_artist)
 
 
 
