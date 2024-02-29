@@ -1,7 +1,7 @@
-# spotify-project
+# Spotify-project
 Spotify API com python
 
-## .env:
+### Variáveis de ambiente
 - Crie um arquivo .env
 - Insira suas variáveis de ambiente
 ```.env
